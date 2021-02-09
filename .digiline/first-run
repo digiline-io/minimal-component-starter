@@ -1,2 +1,2 @@
 #!/bin/bash
-openssl req  -nodes -new -x509  -keyout server.key -out server.cert -days 365 -subj "/C=US/ST=Digiline/L=Digiline/O={{userName}}/OU=Digiline/CN={{component}}.digiline.io"
+openssl req  -nodes -new -x509  -keyout .digiline/server.key -out .digiline/server.cert -days 365 -subj "/C=US/ST=Digiline/L=Digiline/O={{userName}}/OU=Digiline/CN={{component}}.digiline.io"
