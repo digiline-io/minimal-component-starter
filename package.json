@@ -1,0 +1,10 @@
+{
+    "scripts": {
+        "build": "rollup main.js --file out/app.esm.js --format iife",
+        "start": "live-server --host=0.0.0.0 --port=3333 --no-browser --https=.digiline/https.conf.js --mount=/:src/"
+    },
+    "devDependencies": {
+        "live-server": "^1.2.1",
+        "rollup": "2.38.5"
+    }
+}
